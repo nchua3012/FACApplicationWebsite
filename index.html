@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nick Chua</title>
+        <link rel="stylesheet" href="styles.css" /> 
+      </head>
+      
+<body>
+    <!-- Top Navigation -->
+    <div class="topnav">
+        <a href="index.html" class="active">Nick Chua</a>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <nav class="nav-topright">
+            <ul>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="Learning.html">Learning</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="nav-menu" id="nav-menu">
+        <ul>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="Learning.html">Learning</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- Welcome Text -->
+<div class="containerImageLeft">
+    <div class="image">
+        <img src=https://placehold.co/800x400 alt="Placeholder Image" />
+    </div>
+    <div class="WelcomeText">    
+        <h2>Hi, I’m Nick Chua.</h2>
+        <p>A former architect, I'm retraining to become a developer. I specialize in creating responsive and visually appealing websites.</p>
+        <p>I also offer services in presentations, pitch documents, graphic design, photography, CAD and architectural drawings. Let's collaborate to bring your ideas to life.</p>
+    </div>
+  </div>
+
+<!--Toggle menu visibility -->
+<script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+    const navMenu = document.getElementById('nav-menu');
+    navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block'; 
+    });
+    </script>
+
+
+
+
+</body>
+</html>
