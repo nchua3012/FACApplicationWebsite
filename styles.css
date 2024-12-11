@@ -106,24 +106,24 @@ body {
 .containerImageLeft {
     display: flex;
     align-items: center;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 10px;
 }
 
 .containerImageRight {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start; 
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 10px;
 }
 
 .ProjectTextContainer {
     align-items: flex-start; 
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .projectImages {
@@ -132,7 +132,7 @@ body {
     align-items: center; 
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .ProjectDetailcontainer {
@@ -167,7 +167,7 @@ body {
     flex: 1;
     align-items: flex-start;
     position: relative;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -181,6 +181,7 @@ h3 {
     font-family: Arial, sans-serif;
     margin-left: 0;
     margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 h4 {
     font-size: 20px;
@@ -197,10 +198,12 @@ h4 {
 
 .image {
     margin-right: 50px;
+    margin-top: 35px;
 }
 
 .projectImagesThumbnails {
-    margin-left: 2%;
+    margin-right: 25px;
+    
 }
 
 .imageExperience img {
