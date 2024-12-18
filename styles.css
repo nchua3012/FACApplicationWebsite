@@ -258,7 +258,7 @@ h4 {
   }
   
   .ProjectImageIntro {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -278,6 +278,7 @@ h4 {
     .experienceText,
     .projectText,
     .projectImages,
+    .ProjectImageIntro,
     .image {
         max-width: 100%; 
         margin: 0 2.5%; 
