@@ -131,7 +131,7 @@ body {
 .containerImageLeft {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -139,7 +139,7 @@ body {
 .containerImageRight {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -261,8 +261,8 @@ h4 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    max-width: 1280px;
+    margin-top: 40px;
+    max-width: 900px;
     height: auto; 
     
 }
