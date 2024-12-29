@@ -42,7 +42,7 @@
 
  <!-- Game embedded -->
  <div class="iframecontainer">
-    <iframe class="iframe" src="https://nchua3012.github.io/FACGameSubmission/" width="100%" height="450px"></iframe>
+    <iframe class="iframe" src="https://nchua3012.github.io/FACGameSubmission/" ></iframe>
 </div>           
 
 <!-- Intro Text -->  
@@ -52,22 +52,30 @@
     <p>As a starting point, I followed a guide video by <a href="https://www.youtube.com/watch?v=vyqbNFMDRGQ&t=8785s&ab_channel=ChrisCourses" target="_blank" class="colored-link">Chris Courses</a>. Following his tutorial allowed me to set up the basic framework and implement the basic fighting game mechanics of movement and attacking, as well as setting up the win conditions with JavaScript. </p>
     
     <p>Challenging aspects I encountered were:
-    <li>Attack functions - Working on the various functions was particularly challenging as it required connecting the player inputs, collisions between hitboxes and character boxes as well as the correct sprites to be animated.
-    <li>Sprite sheet positioning - Understanding the relationship between the character boxes/hit boxes and any offsets in X & Y positioning was also intially challenging and required a siginificant amount of time to solve. It required logging various positions as well as creating frames around all the seperate elements to debug all issues and create a functional system. 
+    <li><strong>Attack functions</strong> - Working on the various functions was particularly challenging as it required connecting the player inputs, collisions between hitboxes and character boxes as well as the correct sprites to be animated.</li> 
+    <br>
+    <li><strong>Sprite sheet positioning</strong> - Understanding the relationship between the character boxes/hit boxes and any offsets in X & Y positioning was also initially challenging and required a significant amount of time to solve. It required logging various positions as well as creating frames around all the separate elements to debug all issues and create a functional system. </li> 
     </p>
 
     <h5>Changes I've Made</h5>
     <p>Once my basic framework was created, I made some changes: 
-    <li> Adding character facing directions according left or right inputs. This required the flipping of character sprites to the correct directions when a player inputs moving left or right. 
-    <li> Code to integrate more complex sprite sheets with multiple rows and columns for smoother character animations.</li> 
+    <li> <strong>Movement Directions </strong> - Adding character facing directions according left or right inputs. This required the flipping of character sprites to the correct directions when a player inputs moving left or right. </li> 
+    <br>
+    <li> <strong>Frametime / FPS Updates</strong> - I implemented changes to the horizontal movement animation logic so that animations use a time-based approach to animations instead of frame-based. This allows animations to be consistent across different screen refresh rates.</li> 
+    <br>
+    <li> <strong>Jumping animation logic</strong> - Adjustments have been made to the jumping logic so that animations are consistent across different screen refresh rates. This is still WIP and optimised for 60hz screens.</li> 
+    <br>
+    <li> <strong>Sprite Sheet Logic</strong> - Code to integrate more complex sprite sheets with multiple rows and columns for smoother character animations.</li> 
     </p>
     <p>Looking ahead, I plan to make the following improvements as my understanding of Javascript continues to grow: 
-        <li> Move styling and layout to CSS for better organization.
-        <li> Adjustments to the character code to allow easier positioning edits.
+        <li> Exploring different ways of implementing jumping & gravity. Jumping is currently optimised for 60hz screens, this needs to work for all screen refresh rates. 
+        <li> Move styling and layout to CSS for better organisation.
         <li> Add more attacks and blocking mechanics to enhance gameplay. 
-            
-            </p>
+    </p>
      
+    <br>
+    <br>
+
     </div>
 </div>
   
