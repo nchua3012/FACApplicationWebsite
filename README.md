@@ -1,2 +1,3 @@
-My Fighting Game!
-A 2 player javascript fighting game!
+My Portflio Website
+
+A website created to showcase a website and game!
